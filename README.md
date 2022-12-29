@@ -22,8 +22,8 @@ I hope that by participating in this event I can learn more about cloud computin
 
 My goal is to learn and want to know more about cloud and other IT stuff and get some certificates and awards about it all.
 
-- Link to my Twitter(https://twitter.com/SandhikaPutra13)
-- Link to my LinkedIn(https://www.linkedin.com/in/putra-fa-b3bbb7246/)
+- [Link to my Twitter](https://twitter.com/SandhikaPutra13)
+- [Link to my LinkedIn](https://www.linkedin.com/in/putra-fa-b3bbb7246/)
 
 ## Stepping out the door
 

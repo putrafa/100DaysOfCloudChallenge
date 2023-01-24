@@ -29,7 +29,7 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 
 - [ ] ☁️ 1 > [Virtualisasi and Basic Linux](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [Cloud Computing](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
+- [ ] ☁️ 3 > [Network Fundamental](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)

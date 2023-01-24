@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Network Fundamental
 
-# New post title here
+## Computer Network
+- Introduction to Computer Networks
 
-## Introduction
+Computer networks can also be called data sharing, so the function of this computer network is to make it easier for us to share information, data, and so on. In essence, a computer network is a relationship between 2 or more computers to communicate with each other.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- IP Address
 
-## Prerequisite
+IP Address is the address of a device in the form of numbers to be able to communicate with each other, or it can also be called a name. So in order for us to be able to share information and data we need an IP address. The IP address writing format is divided into 4 obtet (x.x.x.x) where each obtet is a decimal number starting from 0-255.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+           IP Class A (0-126/8)
+           IP Class B (128-191/16)
+           IP Class C (192-224/24)
 
-## Use Case
+1. IP Public
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+      IP used on the Internet.
 
-## Cloud Research
+2. IP Private
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+      IP used to communicate in a local network (LAN).
 
-## Try yourself
+- Subnetting
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+This subnetting is used to determine the effective prefix. The function of the prefix is to find out the number of IPs that we can use. Prefix (/)
+![Screenshot](https://user-images.githubusercontent.com/121589476/214266626-822f3394-84ac-4b14-8e79-eee014eb4daa.jpeg)
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+      - Number of Hosts :
+        /24 = 256
+        /25 = 128
+        /26 = 64
+        /27 = 32
+        /28 = 16
+        /29 = 8
+        /30 = 4

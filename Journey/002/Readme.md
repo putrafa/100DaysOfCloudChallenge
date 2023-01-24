@@ -1,52 +1,60 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## Cloud Computing
 
-# New post title here
+Today I studied :
+1. Get to know Cloud Computing
+2. Definition of Clouds
+3. Cloud Type
+4. Cloud Function
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+  Cloud Computing is a method of delivering various services over the internet. The resources in question are, for example, applications such as data storage, servers, databases, networks, and software. Cloud computing is the on-demand delivery of computing power, database storage, applications, and other IT resources. Cloud computing is a popular option because it has many advantages, such as reducing costs, increasing productivity, speed, efficiency, performance, and security. 
+Example of using the Cloud :
+  1. Storage, backup, data retrieval
+  2. Build and test applications
+  3. Analyze data
+  4. Streaming audio and video
 
-## Prerequisite
+## Cloud Type
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+ 1. Software-as-a-service (SaaS)
 
-## Use Case
+These licenses involves licensing a software application to its users. These licenses are usually provided via a pay-as-you-go or on-demand method. This type can be found in Microsoft Office's 365.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+2. Infrastructure-as-a-service (IaaS)
 
-## Cloud Research
+This license involves a method for delivering a file from the operating system to servers and storage, via IP-based connectivity as part of an on-demand service. Clients don't need to buy software or servers. Popular examples of this type are Public Cloud from Indonesian Cloud and Microsoft Azure.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+3. Platform-as-a-service (PaaS)
 
-## Try yourself
+This license is touted as the most complex. PaaS is very similar to SaaS, but the biggest difference is that, instead of delivering software online, PaaS is actually a platform for creating software that is delivered over the internet.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Advantages and Disadvantages of Cloud Computing for Enterprise IT Infrastructure
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+1. Advantages of using Cloud Computing :
+  - More cost effective than on-site servers
+  - Facilitate business management
+  - High loading speed
+  - There is a back-up and data recovery feature
+  - Automatic software integration
+  - Reliability
+  - Unlimited storage capacity
+  - Enables better team collaboration
+  - Fast implementation
+  - On-demand self-service
+  - Multi-tenancy
+  - Powerful computing
+  - Fast and effective virtualization
+  - Cheap software
+  - Advanced online security
+  - Location and device standalone
+  - Always available, scaling automatically to match increased demand
+  - Pay as you go
+  - Web-based interface and controls
+  - API access available
+2. Disadvantages of using Cloud Computing :
+  - Security threat
+  - Downtime
+  - Internet connectivity
+  - Limited bandwidth
+  - Lack of customer support

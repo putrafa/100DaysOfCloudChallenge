@@ -11,49 +11,50 @@ Like the example above, we have two groups in IAM. And the group contains only u
 
 Users and groups can be provided with what's called a JSON document. As shown below, this is what is called a policy, IAM policy. 
 ![image](https://user-images.githubusercontent.com/121589476/214770551-e9b0ddf1-5e37-4aea-a376-ea8e27f56c2d.png)
+
 That's how it looks. 
 
-## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details 
-the cloud service or topic.
+# IAM USers and Groups Hands On
+## AWS Management Console
 
-## Use Case
+The AWS service console is called IAM. IAM is a Global service, whereas many other AWS services will be regional services and there will be regional divisions. But for IAM, users and groups are created globally.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# IAM Policies
+## IAM Policies Inheritance
 
-## Cloud Research
+![image](https://user-images.githubusercontent.com/121589476/214983644-8c0e64fb-4642-4100-9cb1-79d4405af71e.png)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+For example we have a group like the image above. And there is a policy attachment at the group level. The policy will be applied to each member, so they will all get access and inherit this policy.
+![image](https://user-images.githubusercontent.com/121589476/214984544-87a74d36-2717-4cce-931b-161b5f1fcc32.png)
 
-## Try yourself
+Now if there is a second group with different operations and policies then its members will have different policies than the developer group.
+![image](https://user-images.githubusercontent.com/121589476/214984805-347cf184-ef66-4dad-a509-5ef8be422711.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Then there is another user. he has the possibility of not being part of the group.
+![image](https://user-images.githubusercontent.com/121589476/214985983-1ce0d482-024f-4e7d-a309-805edd474c16.png)
 
-### Step 1 — Summary of Step
+And it has the possibility to create what are called inline policies which have policies only attached to the user. So that a user can or can't be a member of a group, we can have an inline policy for any user we want.
+![image](https://user-images.githubusercontent.com/121589476/214987558-32cd6664-719d-4d7d-a735-30ff586f11d0.png)
 
+Then if there is 1 more team, namely Audit. And we also attach a policy to it, then the user added there will inherit the policy. So that means CHARLES has policies from the Developer and policies from the Audit team and DAVID has policies from Operations and policies from the Audit team. It should go in when we get into hands-on.
 
+## IAM Policies Structure
 
-### Step 1 — Summary of Step
+In terms of policy structure, we just need to know at a high level how it works, and what it's called.
+![image](https://user-images.githubusercontent.com/121589476/214990752-4fa28e1a-e923-4809-a162-8dbb81621ce5.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- Consisits Of
+        
+    - Version : policy language version, always include "2010-10-17"
+    - ID : an identifier for the policy (optional)
+    - Statement : one or more individual statements (required)
+    
+- Statements Consist Of 
+    
+    - Sid : an identifier for the statement (optional)
+    - Effect : whether the statement allows or denies access (allow, deny)
+    - Principal : account/ user/role to which this policy applied to
+    - Action : list of action this policy allows or denies
+    - Resource : list of resources to wich the actions applied to
+    - Condition : conditions fir when this policy is in effect (optional)

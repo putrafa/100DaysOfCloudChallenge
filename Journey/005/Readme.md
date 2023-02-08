@@ -1,52 +1,49 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# IAM MFA 
 
-# New post title here
+## IAM - Password Policy
 
-## Introduction
+To secure our users and groups from being compromised, we can have 2 defense mechanisms. The first is to define what is called a Password Policy.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- Strong password = Higher security for your account
+- In AWS, you can set up a password policy :
+      
+    - Set a minimun password legth
+    - Require specific character types :
+      
+        - Including uppercase letters
+        - Lowercase letters
+        - Numbers
+        - Non-alphanumeric characters
+    - Allow all IAM users to change their own password
+    - Require users to change their password after some time(password expiration)
+    - Prevent password re-use
+    
+Then for the second defense that must be known is Multi Factor Authenticaion or MFA. On AWS it is a must and highly recommended to use it.
 
-## Prerequisite
+- Users have access to your account and can possibly change configurations or delete resources in your AWS account
+- You want to protect your Root Account and IAM Account
+- MFA = Password you know + security device you own 
+![image](https://user-images.githubusercontent.com/121589476/217415208-4ab39280-52e8-42c6-9a12-1b604507a0d7.png)
+- Main benefit of MFA :
+ 
+  If a password is stolen or hacked, the acoount is not compromised
+  
+## MFA Devices Option in AWS
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+So what are the MFA device options on AWS that we should know about? As follows :
+1. Virtual MFA Device
 
-## Use Case
+This is what is used in the HandOn so that we can use Google Authenticator, which only works on one phone at a time. or using Aunthy which is multi device both work same except one is multi device. So for Aunthy we have support for multiple tokens on one device. So, it means that with Virtual MFA device we can have root account, IAM user and other accounts and other IAM users. We are free to have as many users and accounts as we want in Virtual kia. MFA tools, which makes for a very easy-to-use solution.
+![image](https://user-images.githubusercontent.com/121589476/217417586-b84240c4-06e6-4618-847d-1a07406dbcb3.png)
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+2. Universal 2nd Factor(U2F) Security Key
 
-## Cloud Research
+It's a physical device, for example YubiKey by Yubico and Yubico is 3rd party for AWS, it's more than AWS provides, it's 3rd party and use physical device, because maybe it's so easy, we put it in our Key Fobs, and we are ready to do it. So this YubiKey supports multiple root users and IAM uses one security so we don't need to need as many keys as users.
+![image](https://user-images.githubusercontent.com/121589476/217418539-e291474a-5ee1-4713-87d3-975bb7da31f5.png)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+3. Hardware Key Fob MFA Device
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+This is provided by Gamalto who is also an AWS third party.
+![image](https://user-images.githubusercontent.com/121589476/217419067-cadf72ab-44cb-4184-97d3-fca41a07d0ab.png)
+If we use Government Cloud in US, WS GovCloud then we have a special Key Fob. provided by SurePassID which is also a 3rd party.
+![image](https://user-images.githubusercontent.com/121589476/217419416-c3dd711d-5375-40ae-a4d9-4526a6aef654.png)

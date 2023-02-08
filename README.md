@@ -53,22 +53,22 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [Leveraging the AWS Global Infrastructure (3)](Journey/021/Readme.md)
+- [ ] ☁️ 21 > [Host, Hostname, and Network Management](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [Cloud Integrations Overview & Summary](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [SOS Overview & SOS Hands On](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [Kinesis](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [SNS Overview & SNS Hands On](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [Amazon MO](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [CloudWatch Metrics & Alarms](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [CloudWatch Logs & EventBridge(CloudWatch vents](Journey/028/Readme.md)
+- [ ] ☁️ 28 > [CloudWatch Logs & EventBridge(CloudWatch vents)](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [CloudTrail](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [ ] ☁️ 30 > [VPC & Networking (1)](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
+- [ ] ☁️ 31 > [VPC & Networkung (2)](Journey/031/Readme.md)
+- [ ] ☁️ 32 > [Security & Compliance (1)](Journey/032/Readme.md)
+- [ ] ☁️ 33 > [Security & Compliance (2)](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)

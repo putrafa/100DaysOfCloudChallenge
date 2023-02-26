@@ -27,13 +27,13 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [Virtualisasi and Basic Linux](Journey/001/Readme.md)
+- [ ] ☁️ 1 > [Meet 1 (Virtualisasi and Basic Linux)](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [Cloud Computing](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [Network Fundamental](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [IAM (1)](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [IAM (2)](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [IAM (3)](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [User, Management Group, and Permision](Journey/007/Readme.md)
+- [ ] ☁️ 7 > [IAM (4)](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [EC2 (1)](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [EC2 (2)](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [EC2 (3)](Journey/010/Readme.md)
@@ -42,8 +42,8 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 
 - [ ] ☁️ 11 > [EBS](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [AMI](Journey/012/Readme.md)
-- [ ] ☁️ 13 > [Amazon S3](Journey/013/Readme.md)
-- [ ] ☁️ 14 > [Database](Journey/014/Readme.md)
+- [ ] ☁️ 13 > [Meet 2 (User and Groups Management, CHOWN CHMOD CHGRP)](Journey/013/Readme.md)
+- [ ] ☁️ 14 > [Amazon S3 and Database](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Other Compute (1)](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [Other Compute (2)](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [Deployments & Managing Infrastructure at Scale (1)](Journey/017/Readme.md)
@@ -60,8 +60,8 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 - [ ] ☁️ 25 > [SNS Overview & SNS Hands On](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [Amazon MO](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [CloudWatch Metrics & Alarms](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [CloudWatch Logs & EventBridge(CloudWatch vents)](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [CloudTrail](Journey/029/Readme.md)
+- [ ] ☁️ 28 > [CloudWatch Logs & EventBridge(CloudWatch vents) and Cloud Trail](Journey/028/Readme.md)
+- [ ] ☁️ 29 > [Meet 3 (Setting Adapter, IP Address VM, Connect VM to Internet & HostOS) ](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [VPC & Networking (1)](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
@@ -69,17 +69,17 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 - [ ] ☁️ 31 > [VPC & Networkung (2)](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [Security & Compliance (1)](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [Security & Compliance (2)](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
-- [ ] ☁️ 35 > [](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
-- [ ] ☁️ 37 > [](Journey/037/Readme.md)
-- [ ] ☁️ 38 > [](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 34 > [Machine Learning (1)](Journey/034/Readme.md)
+- [ ] ☁️ 35 > [Machine Learning (2)](Journey/035/Readme.md)
+- [ ] ☁️ 36 > [Machine Learning (3)](Journey/036/Readme.md)
+- [ ] ☁️ 37 > [AWS Account Management, Billing, and Support (1)](Journey/037/Readme.md)
+- [ ] ☁️ 38 > [AWS Account Management, Billing, and Support (2)](Journey/038/Readme.md)
+- [ ] ☁️ 39 > [AWS Account Management, Billing, and Support (3)](Journey/039/Readme.md)
+- [ ] ☁️ 40 > [AWS Account Management, Billing, and Support (4)](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
+- [ ] ☁️ 41 > [Meet 4 (IAM Create Users and Groups)](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)

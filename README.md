@@ -80,10 +80,10 @@ My goal is to learn and want to know more about cloud and other IT stuff and get
 ## Trekking the dunes
 
 - [ ] ☁️ 41 > [Meet 4 (IAM Create Users and Groups)](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
-- [ ] ☁️ 43 > [](Journey/043/Readme.md)
-- [ ] ☁️ 44 > [](Journey/044/Readme.md)
-- [ ] ☁️ 45 > [](Journey/045/Readme.md)
+- [ ] ☁️ 42 > [Advanced Identity (1)](Journey/042/Readme.md)
+- [ ] ☁️ 43 > [Advanced Identity (2)](Journey/043/Readme.md)
+- [ ] ☁️ 44 > [Meet5 (EC2 Instance Web Server dan SSH)](Journey/044/Readme.md)
+- [ ] ☁️ 45 > [Amazon WorkSpaces and Amazon AppStream 2.0](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [](Journey/048/Readme.md)
